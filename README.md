@@ -23,3 +23,5 @@ __init__.py
 https://www.youtube.com/watch?v=cHYq1MRoyI0&pp=ygUGcHl0ZXN0
 
 https://stackoverflow.com/questions/4383571/importing-files-from-different-folder
+
+https://docs.pytest.org/en/7.4.x/
