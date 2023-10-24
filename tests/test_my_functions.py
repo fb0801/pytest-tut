@@ -12,5 +12,6 @@ def test_divide():
     assert result == 2
 
 def test_divide_by_zero():
-    result = my_functions.divide(10,0)
-    assert True
+    with pytest.raises(ZeroDivisionError):
+        my_functions.divide(10,0)
+  
