@@ -10,7 +10,10 @@ learning to use Pytest
 
 ## Issues:
 
-- had issue running test and resolved by making __init__.py files in both dir
+- had issue running test and resolved by making 
+- ```bash
+__init__.py 
+``` files in both dir
 
 
 ## Resoucres used:
