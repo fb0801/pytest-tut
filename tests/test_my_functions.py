@@ -22,10 +22,15 @@ def test_divide_by_zero():
 
 @pytest.mark.slow
 def test_very_slow():
-    time.sleep(10)
+    time.sleep(5)
     result = my_functions.divide(10,5)
     assert result == 2
 
 @pytest.mark.skip(reason = "feature currently broken")
 def test_add():
     assert my_functions.add(1,2) == 3
+
+
+@pytest.mark.xfail(reason="cannot perform that")
+def test_divide_zero_broken():
+    my_functions.divide(4,0)
