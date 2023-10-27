@@ -15,7 +15,7 @@ learning to use Pytest
 __init__.py 
 
 ``` 
-
+- had to add requests in test_service.py file to work
 
 
 ## Resoucres used:
