@@ -27,3 +27,5 @@ https://stackoverflow.com/questions/4383571/importing-files-from-different-folde
 https://docs.pytest.org/en/7.4.x/
 
 https://jsonplaceholder.typicode.com/
+
+https://openai.com/
